@@ -1,14 +1,17 @@
-## AWS Solution Architect Associate Exam
+# AWS Solution Architect Associate Exam
 
-                                                        Date: 05th Nov, 2020
+Date: 05th Nov, 2020
 
-### Notes on Secrets Manager
+Reference: [AWS Course from Adrian Cantrill](https://learn.cantrill.io/)
+
+## Notes on Secrets Manager
 
 * API Keys and Passwords are the key words for the exam
 * Application integrations
   * RDS
 
 > do not need lamda function
+
 * Automatic rotation of keys using **Lambda**, or rotation of the secrets
 
 > Note Lamda function needs execution Role
@@ -25,6 +28,7 @@
 Both these products are configured together to protect against advanced attacks.
 
 ### AWS Shield
+
 * AWS Shield comes into 2 Versions
   * Standard
     * Protects Cloud front and Route53
@@ -64,10 +68,10 @@ Both these products are configured together to protect against advanced attacks.
     * CryptoNG Extension from Microsoft
     * Java Cryptographic Extensions from Java
 
-### Drawbags
+### Considerations
 
 * No native integration with AWS. In other words, AWS API cannot be used here.
 * But here you can use Client Side encryption
 * Here one use CloudHSM do SSL offload as Privatekey and infrastructure is managed by you
 * CloudHSM can protect Private keys of your CA. Now, this is how traditionally CA's private keys are protected
-* Oracle can use CloudHSM for encrypting data using TDE 
+* Oracle can use CloudHSM for encrypting data using TDE
