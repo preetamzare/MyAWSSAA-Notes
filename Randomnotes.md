@@ -38,9 +38,9 @@ Both these products are configured together to protect against advanced attacks.
       * EC2
       * Elastic LB
       * Global Accelerator
-    * comes with premium cost but then also gets
+    * comes with premium cost :money_mouth_face: but then also gets
       * Financial Insurance
-      * 24 x 7 support from DDoS Protection team
+      * 24 x 7 :stopwatch: support from DDoS Protection team
 
 ### AWS WAF
 
@@ -51,16 +51,18 @@ Both these products are configured together to protect against advanced attacks.
   * Controlled through Web Access Control (WACL)
   * Applied to ELB, API GW and CloudFront
 
-  > Remember ELB, API GW and CloudFront are protecting perimeter/Global Perimeter.
-  > CloudFront and ELB gets protection from both Shield and WAF. At CloudFront, you apply WACL at the distribution
+> Remember ELB, API GW and CloudFront are protecting perimeter/Global Perimeter.
+> CloudFront and ELB gets protection from both Shield and WAF. At CloudFront, you apply WACL at the distribution.
+
+:anchor: Cloudfront and ELB get protected by both WAF and Shield. Refer to lessons from Adrain. He explains quite well.
 
 ## Cloud HSM
 
-* The most important to remember it is dedicated service in cloud. It is dedicated to you and no one can use it.
-* This also means, you have to manage this end to end except the Hardware and software maintenance is done by AWS
-* BUT HA still needs to be considered. So one should deploy multiple CloudHSM in different availability zone
+* The most important :bangbang: to remember it is dedicated service in cloud. It is dedicated to you and no one can use it.
+* This also means, you have to manage this end-to-end except the Hardware and software maintenance is done by AWS
+* BUT HA still needs to be considered. So one should deploy multiple CloudHSM in different availability zone. (_But who deploys it? unclear at this Stage_)
 * Access is available via ENI which is injected in to the Private VPC
-* CloudHSM is access via CloudHSM Client. It needs to be installed on the EC2 instances
+* CloudHSM is managed via CloudHSM Client. This utility needs to be installed on the EC2 instances
 * Some keywords for the exam
   * FIPS 140-2 **Level 3**
   * Cloud HSM can be accessed via
@@ -71,7 +73,7 @@ Both these products are configured together to protect against advanced attacks.
 ### Considerations
 
 * No native integration with AWS. In other words, AWS API cannot be used here.
-* But here you can use Client Side encryption
-* Here one use CloudHSM do SSL offload as Privatekey and infrastructure is managed by you
-* CloudHSM can protect Private keys of your CA. Now, this is how traditionally CA's private keys are protected
+* But you can use Client Side encryption in this case.
+* Here one can use CloudHSM do SSL offload as Privatekey and infrastructure is managed by you
+* CloudHSM can protect Private keys :key: of your CA. Now, if you worked in this domain, this is the standard way how traditionally CA's private keys are protected.
 * Oracle can use CloudHSM for encrypting data using TDE
