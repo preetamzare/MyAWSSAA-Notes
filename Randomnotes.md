@@ -10,7 +10,7 @@ Reference: [AWS Course from Adrian Cantrill](https://learn.cantrill.io/)
 * Application integrations
   * RDS
 
-> do not need lamda function
+> do not need Lamda function
 
 * Automatic rotation of keys using **Lambda**, or rotation of the secrets
 
@@ -54,7 +54,7 @@ Both these products are configured together to protect against advanced attacks.
 > Remember ELB, API GW and CloudFront are protecting perimeter/Global Perimeter.
 > CloudFront and ELB gets protection from both Shield and WAF. At CloudFront, you apply WACL at the distribution.
 
-:anchor: Cloudfront and ELB get protected by both WAF and Shield. Refer to lessons from Adrain. He explains quite well.
+:anchor: Cloudfront and ELB get protected by both WAF and Shield. Refer to lessons from Adrian. He explains quite well.
 
 ## Cloud HSM
 
@@ -75,5 +75,5 @@ Both these products are configured together to protect against advanced attacks.
 * No native integration with AWS. In other words, AWS API cannot be used here.
 * But you can use Client Side encryption in this case.
 * Here one can use CloudHSM do SSL offload as Privatekey and infrastructure is managed by you
-* CloudHSM can protect Private keys :key: of your CA. Now, if you worked in this domain, this is the standard way how traditionally CA's private keys are protected.
+* CloudHSM can protect Private keys :key: of your CA. *Now, if you worked in this domain, this is the standard way how traditionally CA's private keys are protected.*
 * Oracle can use CloudHSM for encrypting data using TDE
