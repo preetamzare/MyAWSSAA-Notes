@@ -1,4 +1,4 @@
-# AWS Solution Architect Associate Exam
+# AWS Solution Architect Associate Exam -Notes
 
 Date: 05th Nov, 2020
 
@@ -30,10 +30,10 @@ Both these products are configured together to protect against advanced attacks.
 ### AWS Shield
 
 * AWS Shield comes into 2 Versions
-  * Standard
+  * **Standard**
     * Protects Cloud front and Route53
     * Provides L3 and L4 Protections
-  * Advanced
+  * **Advanced**
     * Protects over and above CF and Route53
       * EC2
       * Elastic LB
@@ -49,12 +49,12 @@ Both these products are configured together to protect against advanced attacks.
   * Cross site scripting
   * Provides Geo Blocks
   * Controlled through Web Access Control (WACL)
-  * Applied to ELB, API GW and CloudFront
+  * Applied to ELB, **API GW** and CloudFront
 
 > Remember ELB, API GW and CloudFront are protecting perimeter/Global Perimeter.
 > CloudFront and ELB gets protection from both Shield and WAF. At CloudFront, you apply WACL at the distribution.
 
-:anchor: Cloudfront and ELB get protected by both WAF and Shield. Refer to lessons from Adrian. He explains quite well.
+:anchor: Cloudfront and ELB get protected by both WAF and Shield. Refer to lessons from Adrian. He explains it quite well.
 
 ## Cloud HSM
 
@@ -74,6 +74,9 @@ Both these products are configured together to protect against advanced attacks.
 
 * No native integration with AWS. In other words, AWS API cannot be used here.
 * But you can use Client Side encryption in this case.
-* Here one can use CloudHSM do SSL offload as Privatekey and infrastructure is managed by you
+* Here one can use CloudHSM do SSL offload for ELB as Privatekey and infrastructure is managed by you
 * CloudHSM can protect Private keys :key: of your CA. *Now, if you worked in this domain, this is the standard way how traditionally CA's private keys are protected.*
 * Oracle can use CloudHSM for encrypting data using TDE
+
+Revised On: 21.11.2020 | Next Revision: 24.11.2020
+-----------------------| -------------------------
