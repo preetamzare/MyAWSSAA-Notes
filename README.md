@@ -5,3 +5,9 @@ Reference: [AWS SAA Course from Adrian](https://learn.cantrill.io/)
 
 NB: There are many things I'm updating. Some concepts may be not as described. I have to put in my own words to understand them.
 Needs to repeat but this is purely to write this note for myself so that I can consolidate my knowledge. This repository is public, in case you can benefit from it.
+
+Symbols/Emoji Used
+
+* Use Cases- :toolbox:
+* Remember this- :magnet:
+* Memory Tricks- :electric_plug:
