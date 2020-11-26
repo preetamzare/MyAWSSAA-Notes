@@ -11,3 +11,5 @@ Symbols/Emoji Used
 * Use Cases- :toolbox:
 * Remember this- :magnet:
 * Memory Tricks- :electric_plug:
+* Note :bellhop_bell:
+* Root,Admin,Boss :woman_teacher:
