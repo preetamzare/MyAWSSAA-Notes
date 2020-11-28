@@ -13,3 +13,4 @@ Symbols/Emoji Used
 * Memory Tricks- :electric_plug:
 * Note :bellhop_bell:
 * Root,Admin,Boss :woman_teacher:
+* I like this :gift_heart:
