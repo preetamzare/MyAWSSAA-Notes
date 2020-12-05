@@ -1,7 +1,6 @@
 # AWS Solution Architect Associate Exam -Notes
 
-Revised On: 26.11.2020 | Next Revision: 29.11.2020
------------------------| -------------------------
+Revised On: 05.12.2020
 
 Date: 05th Nov, 2020
 
@@ -39,7 +38,7 @@ Both these products are configured together to protect against advanced attacks.
   * **Advanced**
     * Protects over and above CF and Route53
       * EC2
-      * Elastic LB
+      * Elastic LB (remember it is only L3 and L4)
       * Global Accelerator
     * comes with premium cost :money_mouth_face: but then you also get
       * Financial Insurance
