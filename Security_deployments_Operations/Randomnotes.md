@@ -79,6 +79,7 @@ Both these products are configured together to protect against advanced attacks.
 * Here one can use CloudHSM do SSL offload for ELB (i guess bridging mode) as Privatekey and infrastructure is managed by you
 * CloudHSM can protect Private keys :key: of your CA. *Now, if you worked in this domain, this is the standard way how traditionally CA's private keys are protected.*
 * Oracle can use CloudHSM for encrypting data using TDE
+* Transparent Data Encryption (TDE) is primarily used to encrypt stored data on your DB instances 
 
 Revised On: 21.11.2020 | Next Revision: 24.11.2020
 -----------------------| -------------------------
