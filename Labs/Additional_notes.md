@@ -18,7 +18,9 @@ Idea to further refine the knowledge.
 
 ### AWS MQ
 
-If you’re using messaging with existing applications and want to move your messaging service to the cloud quickly and easily, it is recommended that you consider Amazon MQ. It supports industry-standard APIs and protocols so you can switch from any standards-based message broker to Amazon MQ without rewriting the messaging code in your applications.
+If you’re using messaging with **existing applications** and want to move your messaging service to the cloud quickly and easily, it is recommended that you consider Amazon MQ. It supports industry-standard APIs and protocols so you can switch from any standards-based message broker to Amazon MQ without rewriting the messaging code in your applications.
+
+If you are building **brand new applications** in the cloud, then it is highly recommended that you consider Amazon SQS and Amazon SNS
 
 SQS does not support an extensive list of industry-standard messaging APIs and protocol, unlike Amazon MQ. Moreover, using Amazon SQS requires you to do **additional changes** in the messaging code of applications to make it compatible.
 
@@ -28,7 +30,7 @@ Amazon EMR is a managed cluster platform that simplifies running big data framew
 
 ### Expedited retrievals
 
-Expedited retrievals allow you to quickly access your data when occasional urgent requests for a subset of archives are required. For all **but the largest archives (250 MB+)**, data accessed using Expedited retrievals are typically made available within 1–5 minutes. Provisioned Capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
+Expedited retrievals allow you to quickly access your data when occasional urgent requests for a subset of archives are required. For all below the largest archives (250 MB+)**, data accessed using Expedited retrievals are typically made available within 1–5 minutes. Provisioned Capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
 
 ### Provisioned Capacity
 
