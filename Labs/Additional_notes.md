@@ -43,7 +43,8 @@ AWS Glue is a fully managed extract, transform, and load (ETL) service that make
 Detailed monitoring just provides a higher frequency of metrics (1-minute frequency).
 
 ### Cognito
-You can add multi-factor authentication (MFA) to a user pool to protect the identity of your users. MFA adds a second authentication method that doesn’t rely solely on user name and password. You can choose to use SMS text messages, or time-based one-time (TOTP) passwords as second factors in signing in your users. You can also use adaptive authentication with its risk-based model to predict when you might need another authentication factor. It’s part of the user pool advanced security features, which also include protections against compromised credentials.
+You can add multi-factor authentication (MFA) to a user pool in Cognito to protect the identity of your users. It’s part of the user pool advanced security features, which also include protections against compromised credentials.
+
 
 ### CORS
 
